@@ -4,6 +4,9 @@ In this project, the goal is to design a path planner that is able to create smo
 
 - I was able to drive the car in the simulator for 34.67 miles without any incident.
 
+![best_without_incident](https://user-images.githubusercontent.com/25946127/35612461-b39ecb70-061d-11e8-9e02-963730b855b8.jpg)
+![best_without_incident_2](https://user-images.githubusercontent.com/25946127/35612462-b3c69b3c-061d-11e8-9800-7ae887b88f8b.jpg)
+
 - During this drive, the car
 i. did not exceed the max speed of 50mph.
 ii. did not exceed a total acceleration of 10 m/s^2 and a jerk of 10 m/s^3.
