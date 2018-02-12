@@ -4,8 +4,10 @@ In this project, the goal is to design a path planner that is able to create smo
 
 - I was able to drive the car in the simulator for 34.67 miles without any incident.
 
+## Screenshots of the car driving in the simulator
 ![best_without_incident](https://user-images.githubusercontent.com/25946127/35612461-b39ecb70-061d-11e8-9e02-963730b855b8.jpg)
 ![best_without_incident_2](https://user-images.githubusercontent.com/25946127/35612462-b3c69b3c-061d-11e8-9800-7ae887b88f8b.jpg)
+ 
 
 - During this drive, the car  
 i. did not exceed the max speed of 50mph.  
@@ -23,4 +25,4 @@ Lines 289-309 describe our car's actions (lane change/slowing down/speeding up) 
 
 b) Lines 319-340: This part of the code gets the last two waypoints from the previous path (if the previous path has more than 2 waypoints) and uses them to plan the current path to maintain smooth transition between each set of waypoints.
 
-c) Lines 344-397 : This part of the code is the path generation for the car using Spline tool recommended in the Udacity lessons. This tool was used to interpolate the path between the known waypoints upto 30m ahead. The velocity is adjusted for every frame (0.02 seconds) to make sure it doesn't exceed the v_max but at the same time accelerate and go as fast as possible within the speed limit.
+c) Lines 344-397: This part of the code is the path generation for the car using Spline tool recommended in the Udacity lessons. This tool was used to interpolate the path between the known waypoints upto 30m ahead. The velocity is adjusted for every frame (0.02 seconds) to make sure it doesn't exceed the v_max but at the same time accelerate and go as fast as possible within the speed limit.
