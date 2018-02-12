@@ -23,4 +23,4 @@ Lines 289-309 describe our car's actions (lane change/slowing down/speeding up) 
 
 b) Lines 319-340: This part of the code gets the last two waypoints from the previous path (if the previous path has more than 2 waypoints) and uses them to plan the current path to maintain smooth transition between each set of waypoints.
 
-c) Lines 344-397: This part of the code is the path generation for the car using Spline tool recommended in the Udacity lessons. This tool was used to interpolate the path between the known waypoints upto 30m ahead. The velocity is adjusted for every frame (0.02 seconds) to make sure it doesn't exceed the v_max but at the same time accelerate and go as fast as possible within the speed limit.
+c) Lines 344-397 : This part of the code is the path generation for the car using Spline tool recommended in the Udacity lessons. This tool was used to interpolate the path between the known waypoints upto 30m ahead. The velocity is adjusted for every frame (0.02 seconds) to make sure it doesn't exceed the v_max but at the same time accelerate and go as fast as possible within the speed limit.
